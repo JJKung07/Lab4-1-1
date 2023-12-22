@@ -8,14 +8,12 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
-      label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Contact Details
+      placeholder: ex. Jiraphat Lamun
     validations:
       required: false
   - type: textarea
